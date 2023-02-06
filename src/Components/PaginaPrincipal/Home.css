@@ -1,0 +1,317 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: ROBOTO;
+}
+
+.containerHome {
+    min-width: 350px;
+    max-width: 100%;
+}
+
+body {
+    /* background-color: rgb(6, 5, 48); */
+    font-family: 'Roboto', sans-serif;
+    /* background-color: rgb(233, 231, 231); */
+    background-image: linear-gradient(to right, #111, rgb(3, 3, 3));
+    color: #ccc;
+}
+
+
+header {
+    background-color: black;
+    height: 800px;
+    width: 100%;
+    min-width: 300px;
+}
+
+header h1 {
+    padding-top: 65px;
+    padding-left: 5px;
+    font-family: ROBOTO;
+}
+
+.h1Header {
+    font-size: 40px;
+    color: rgb(112, 3, 214);
+    font-family: Alfa Slab One;
+}
+
+header {
+    width: 100%;
+    min-width: 300px;
+    display: flex;
+    background-position: 50%;
+    /* background-size:cover; */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 90vh !important;
+    position: relative;
+}
+
+
+header {
+    background-image: linear-gradient(90deg, #000, #000D 5%, #0000), url(imagens/HeroImage.webp);
+    /* background-image: url(gifs/dev.gif); */
+}
+
+
+
+/* 
+.textoanimado {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    padding-left: 50px;
+    animation: texto 9s infinite normal steps(40) both;
+    white-space: nowrap;
+    overflow: hidden;
+    padding-top: 100px;
+    font-weight: bolder;
+} */
+
+.texto {
+    font-family: ROBOTO;
+    text-align: justify;
+    align-items: center;
+    justify-content: center;
+}
+
+h3 {
+    text-align: center;
+    font-family: ROBOTO;
+}
+
+/* @keyframes texto {
+    from {
+        width: 1em;
+    }
+
+    to {
+        width: 34em;
+    }
+} */
+
+
+.imagemCodigo {
+    width: 100%;
+    min-width: 300px;
+    display: flex;
+    background-position: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 90vh !important;
+    position: relative;
+}
+
+.imagemCodigo {
+    background-image: url(imagens/programacao.jpg);
+}
+
+.imgtecno {
+    height: 150px;
+    max-width: 150px;
+    border-radius: 5px;
+    box-shadow: 2px 0px 30px 2px rgb(112, 3, 214);
+    cursor: pointer;
+    animation: flutuacao 5s ease-in-out infinite;
+}
+
+@keyframes flutuacao {
+    0%, 100% {
+        transform: translateY(50px);
+    }
+
+    50% {
+        transform: translateY(-5px);
+    }
+}
+
+section {
+    text-align: center;
+    width: 100%;
+    font-size: 20px;
+    text-align: justify;
+    padding: 25px;
+    text-indent: 30px;
+    color: #ccc;
+    font-family: ROBOTO;
+
+}
+
+.imglucas {
+    border-radius: 100%;
+    height: 190px;
+    width: 190px;
+    display: flex;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.frase {
+    font-size: 25px;
+    font-style: italic;
+    font-family: ROBOTO;
+
+}
+
+.meusprojetos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    gap: 20px;
+}
+
+.imagenshome {
+    height: 200px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    
+}
+
+.imagespro {
+    height: 250px;
+    width: 250px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+.imagespro:hover {
+    height: 251px;
+    width: 251px;
+    box-shadow: 2px 0px 30px 0px rgb(112, 3, 214);
+}
+
+.projetosimage {
+    display: flex;
+    gap: 20px;
+}
+
+.projetosimage  h3 {
+    padding-bottom: 20px;
+}
+h2 {
+    font-family: ROBOTO;
+    color: white;
+}
+
+h3{
+    color: white;
+    text-decoration: none;
+    font-family: ROBOTO;
+}
+
+.links {
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+    font-weight: bolder;
+    font-size: 40px;
+    font-family: ROBOTO;
+
+}
+
+.h1proj {
+    margin-bottom: 20px;
+}
+
+.imgGitHub {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 20px;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+.contatos {
+    font-weight: bolder;
+    font-family: ROBOTO;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    padding: 10px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-family: ROBOTO;
+    height: 200px;
+    font-style: italic;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    font-family: ROBOTO;
+}
+
+@media screen and (max-width: 1000px) {
+    .meusprojetos {
+        margin-top: 70px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .textoanimado {
+        white-space: nowrap;
+        overflow: hidden;
+        margin-top: 200px;
+    }
+
+    .h1imgs {
+        text-align: center;
+    }
+
+    .h1proj {
+        margin-top: 150px;
+        font-size: 25px;
+    }
+
+    .h1Header {
+        font-size: 35px;
+    }
+
+    .projetos {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .meusprojetos {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .links {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .curriculo {
+        font-size: 18px;
+    }
+
+    .contatos {
+        font-size: 16px;
+    }
+}

@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5b99a876.css",
+    "main.js": "/static/js/main.8bd26d13.js",
+    "static/media/calculadoraimc.jpg": "/static/media/calculadoraimc.a32b320a81d4be29bbf3.jpg",
+    "static/media/biscoitodasorte.jpg": "/static/media/biscoitodasorte.febac0799ab24324ed40.jpg",
+    "static/media/biscoito.png": "/static/media/biscoito.10574f4adcfea1c07e1c.png",
+    "static/media/cronometro.jpg": "/static/media/cronometro.68cfe13851bcb19d1f22.jpg",
+    "static/media/programacao.jpg": "/static/media/programacao.b26906aa0583f6492fd3.jpg",
+    "static/media/developer.jpg": "/static/media/developer.8d5e850e9b87b8f1bbb4.jpg",
+    "static/media/HeroImage.webp": "/static/media/HeroImage.9eb1a4bc7a270cfda548.webp",
+    "static/media/cronometro.png": "/static/media/cronometro.910ec1f0ccef27233284.png",
+    "static/media/html.png": "/static/media/html.fdc1e1f3a331de1342e4.png",
+    "static/media/reactjs.png": "/static/media/reactjs.d1335fa2de9e9402cfb8.png",
+    "static/media/css.png": "/static/media/css.dc97dbc730973c28527f.png",
+    "index.html": "/index.html",
+    "main.5b99a876.css.map": "/static/css/main.5b99a876.css.map",
+    "main.8bd26d13.js.map": "/static/js/main.8bd26d13.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5b99a876.css",
+    "static/js/main.8bd26d13.js"
+  ]
+}

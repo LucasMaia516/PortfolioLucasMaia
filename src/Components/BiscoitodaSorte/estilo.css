@@ -1,0 +1,39 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.img {
+    height: 300px;
+    width: 300px;
+    margin-top: 70px;
+}
+
+.textoFrase {
+    font-size: 25px;
+    font-style: italic;
+    font-weight: bolder;
+    color: #DD7B22;
+    text-align: center;
+    padding-top: 35px;
+}
+
+.botao {
+    height: 50px;
+    width: 250px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: #DD7B22;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.botao:hover{
+    background-color: #ecae74;
+    color: black;
+}

@@ -1,0 +1,31 @@
+.headerPort {
+    background-color: black;
+    color: black;
+    height: 70px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+.linksPortHeader {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+/* .linksPortHeader svg {
+    padding-left: 15px;
+}
+
+.svgLinkedIn{
+    margin-left: 1700px;
+} */
+
+@media screen and (max-width: 700px) {
+
+    .linksPortHeader svg {
+        height: 28px;
+    }
+}

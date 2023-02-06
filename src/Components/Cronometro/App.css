@@ -1,0 +1,51 @@
+.containerCronometro {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.containerCronometro p {
+    color: white;
+}
+
+.imgCronometro {
+    width: 350px;
+    padding-top: 150px;
+}
+
+.tempoCronometro {
+    margin-top: -220px;
+    font-size: 70px;
+}
+
+.areaBotoesCro {
+    margin-top: 200px;
+    display: flex;
+}
+
+.botoesCro {
+    margin-left: 15px;
+    margin-right: 15px;
+    height: 40px;
+    width: 150px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-weight: bolder;
+    margin-bottom: 35px;
+}
+
+.botoesCro:hover{
+    background-color: #013244;
+    color: white;
+    transition: all 0.70s;
+    font-weight: bolder;
+}
+
+@media screen and (max-width: 700px){
+    .areaBotoesCro {
+        margin-bottom: 50px;
+    }
+}
